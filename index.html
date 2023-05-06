@@ -17,71 +17,162 @@
       min-height: 100%;
     }
     .CD{
-      width: 30vw;
+      width: 20vw;
       position: absolute;
-      top: calc(50vh);
-      right: 50px;
+      top: calc(65vh);
+      right: calc(13vw);
+      animation-name: spin;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .CD:hover{
+      width: 22vw;
     }
 
       .balloons{
       width: 25vw;
       position: absolute;
-      top: calc(50vh);
-      left: 20px;
+      top: calc(35vh);
+      left: calc(3vw);
+      animation-name: spin;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .balloons:hover{
+      width: 27vw;
     }
         .batteries{
-      width: 25vw;
-      position: absolute;
-      top: calc(10vh);
-      left: 300px;
-    }
-        .birthcontrol{
-      width: 25vw;
+      width: 15vw;
       position: absolute;
       top: calc(5vh);
-      right: 40px;
+      left: calc(20vw);
+      animation-name: spin;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .batteries:hover{
+      width: 17vw;
+    }
+        .birthcontrol{
+      width: 15vw;
+      position: absolute;
+      top: calc(5vh);
+      right: calc(46vw);
+      transform: rotate(90deg);
+      animation-name: spin;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .birthcontrol:hover{
+      width: 17vw;
     }
         .incense{
-      width: 25vw;
+      width: 7vw;
       position: absolute;
-      top: calc(50vh);
-      right: 10px;
+      top: calc(68vh);
+      right: calc(85vw);
+      transform: rotate(240deg);
+      animation-name: spin;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .incense:hover{
+      width: 9vw;
     }
         .keychain{
       width: 25vw;
       position: absolute;
       top: calc(10vh);
-      right: 50px;
+      right: calc(3vw);
+      transform: rotate(150deg);
+      animation-name: spin;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .keychain:hover{
+      width: 27vw;
     }
         .knuckles{
-      width: 25vw;
+      width: 13vw;
       position: absolute;
-      top: calc(20vh);
-      right: 30px;
+      top: calc(5vh);
+      right: calc(26vw);
+      transform: rotate(45deg);
+      animation-name: spin;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .knuckles:hover{
+      width: 15vw;
     }
         .lead{
-      width: 5vw;
+      width: 3vw;
       position: absolute;
-      top: calc(60vh);
-      right: 400px;
+      top: calc(75vh);
+      right: calc(55vw);
+      transform: rotate(330deg);
+      animation-name: spin;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .lead:hover{
+      width: 5vw;
     }
         .notebook{
-      width: 25vw;
+      width: 15vw;
       position: absolute;
-      top: calc(20vh);
-      right: 10px;
+      top: calc(70vh);
+      right: calc(35vw);
+      transform: rotate(190deg);
+      animation-name: spin;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .notebook:hover{
+      width: 17vw;
     }
         .protoboard{
-      width: 20vw;
+      width: 13vw;
       position: absolute;
-      top: calc(63vh);
-      right: 470px;
+      top: calc(75vh);
+      right: calc(62vw);
+      animation-name: spin;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .protoboard:hover{
+      width: 15vw;
     }
         .trollshorts{
-      width: 20vw;
+      width: 15vw;
       position: absolute;
-      top: calc(10vh);
-      left: 50px;
+      top: calc(8vh);
+      left: calc(5vw);
+      animation-name: spin;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transition: all 1s;
+    }
+    .trollshorts:hover{
+      width: 17vw;
+    }
+    @keyframes spin {
+      0% {
+      rotate:0deg;
+      }
+      100%{
+      rotate: 3deg;
+      }
     }
   </style>
 
@@ -100,7 +191,7 @@
   <img src="batteries.png" alt="batteries transparent" class="batteries">
   </a>
 
-  <a href="GP.html">
+  <a href="fiber">
   <img src="birthcontrol.png" alt="birth control transparent" class="birthcontrol">
   </a>
 
