@@ -15,39 +15,39 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; 
+  box-sizing: inherit;
 }
     body{
-      background-color: black;
+      background-color: #6143b4;
     }
     h1{
       text-align: right;
-      padding-right: 15;
-      padding-top: 7;
+      margin-right: 30px;
+      padding-top: 7px;
       font-family:'Lacquer', cursive;
-      color: #79ab2e;
-      text-shadow: 2px 2px 3px #C20000, -2px -2px 5px #6e53a3;
+      color: #997fe0;
+      text-shadow: 2px 2px 3px #997fe0, -2px -2px 5px #6143b4;
       font-size: 40
     }
-    
+
   .container {
   width: 90%;
-  
-  margin: 3rem auto; 
+
+  margin: 3rem auto;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 8vw);
-  grid-gap: 1.5rem; 
+  grid-gap: 1.5rem;
 }
 
 .gallery__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block; 
+  display: block;
 }
 
 .gallery__item--1 {
@@ -55,6 +55,7 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 4;
+  border-style: solid;
 
   /** Alternative Syntax **/
   /* grid-column: 1 / span 2;  */
@@ -66,7 +67,8 @@
   grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 4;
-  
+  border-style: solid;
+
 
   /** Alternative Syntax **/
   /* grid-column: 3 / span 2;  */
@@ -78,6 +80,7 @@
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 7;
+  border-style: solid;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4;
@@ -89,28 +92,28 @@
   grid-column-end: 9;
   grid-row-start: 4;
   grid-row-end: 7;
-  
+  border-style: solid;
+
 
   /** Alternative Syntax **/
   /* grid-column: 1 / span 4;  */
   /* grid-row: 3 / span 3; */
 }
 
-/* .gallery__item--5 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 6;
-  grid-row-end: 9;
- */
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4; */
-  /* grid-row: 6 / span 3; */
+p{
+  text-align: right;
+  font-family:'Lacquer', cursive;
+  margin-right: 30px;
+  color: #997fe0;
 }
   </style>
   <body>
     <h1>
       nothing that i write is meant to be read ever again
     </h1>
+    <p>
+      BASIC coded generative poems comprised of notebook and diary entries written over the last 3 years <br> 2022
+    </p>
             <div class="container">
             <div class="gallery">
                 <figure class="gallery__item gallery__item--1">
@@ -130,6 +133,7 @@
                 </figure> -->
             </div>
         </div>
-  
+
+
   </body>
 </html>
